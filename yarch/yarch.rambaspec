@@ -11,12 +11,7 @@ code_files:
 
 - {name: Builder.swift, path: builder.swift.liquid}
 - {name: ViewController.swift, path: viewcontroller.swift.liquid}
-- {name: View.swift, path: View/view.swift.liquid}
+- {name: View/View.swift, path: View/view.swift.liquid}
 - {name: Interactor.swift, path: interactor.swift.liquid}
 - {name: Presenter.swift, path: presenter.swift.liquid}
 - {name: DataFlow.swift, path: dataflow.swift.liquid}
-
-# Provider layer
-- {name: Provider/Provider.swift, path: Code/Provider/provider.swift.liquid}
-- {name: Provider/DataStore.swift, path: Code/Provider/datastore.swift.liquid}
-- {name: Provider/Service.swift, path: Code/Provider/service.swift.liquid}
