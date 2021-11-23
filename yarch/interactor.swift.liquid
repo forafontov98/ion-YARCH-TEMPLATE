@@ -1,0 +1,22 @@
+//
+//  {{ module_info.description }}
+//  Created by {{ developer.name }} on {{ date }}.
+//
+
+protocol {{ module_info.name }}BusinessLogic {
+    func initialState()
+}
+
+/// Класс для описания бизнес-логики модуля {{ module_info.name }}
+final class {{ module_info.name }}Interactor: {{ module_info.name }}BusinessLogic {
+    let presenter: {{ module_info.name }}PresentationLogic
+
+    init(presenter: {{ module_info.name }}PresentationLogic) {
+        self.presenter = presenter
+    }
+    
+    // MARK: Do something
+    func initialState() {
+
+    }
+}
