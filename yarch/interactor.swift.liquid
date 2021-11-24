@@ -10,9 +10,11 @@ protocol {{ module_info.name }}BusinessLogic {
 /// Класс для описания бизнес-логики модуля {{ module_info.name }}
 final class {{ module_info.name }}Interactor: {{ module_info.name }}BusinessLogic {
     let presenter: {{ module_info.name }}PresentationLogic
+    let provider: {{ module_info.name }}ProviderProtocol
 
-    init(presenter: {{ module_info.name }}PresentationLogic) {
+    init(presenter: {{ module_info.name }}PresentationLogic, provider: {{ module_info.name }}ProviderProtocol = {{ module_info.name }}Provider()) {
         self.presenter = presenter
+        self.provider = provider
     }
     
     // MARK: Do something
