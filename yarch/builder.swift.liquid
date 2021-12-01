@@ -7,7 +7,7 @@ import UIKit
 
 final class {{ module_info.name }}Builder {
 
-    static func build() -> UIViewController {
+    func build() -> UIViewController {
         let presenter = {{ module_info.name }}Presenter()
         let interactor = {{ module_info.name }}Interactor(presenter: presenter)
         let controller = {{ module_info.name }}ViewController(interactor: interactor)
