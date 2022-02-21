@@ -12,4 +12,5 @@ protocol {{ module_info.name }}PresentationLogic {
 /// Отвечает за отображение данных модуля {{ module_info.name }}
 final class {{ module_info.name }}Presenter: {{ module_info.name }}PresentationLogic {
     weak var viewController: {{ module_info.name }}DisplayLogic?
+    let router: AppRouter = AppRouterImpl.shared
 }

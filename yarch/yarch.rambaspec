@@ -9,8 +9,9 @@ license: "MIT"
 
 code_files:
 
-- {name: Builder.swift, path: builder.swift.liquid}
 - {name: View/ViewController.swift, path: View/viewcontroller.swift.liquid}
 - {name: View/View.swift, path: View/view.swift.liquid}
-- {name: Interactor.swift, path: interactor.swift.liquid}
 - {name: Presenter.swift, path: presenter.swift.liquid}
+- {name: Interactor.swift, path: interactor.swift.liquid}
+- {name: Provider.swift, path: provider.swift.liquid}
+- {name: Builder.swift, path: builder.swift.liquid}
